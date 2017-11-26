@@ -1,0 +1,53 @@
+.titlepic {
+    position: static;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.title {
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    color: #919fb7;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 100px;
+}
+
+.loginbox {
+    background-color: #919fb7;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px, 20px;
+}
+
+.loginpic {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.login {
+    width: 100px;
+}
+
+.inputbox {
+    margin: 0 auto;
+    width: 80%;
+}
+
+input, button {
+    display: block;
+    width: 80%;
+}
+
+#need_help {
+    display: block;
+    text-align: right;
+    margin: 0 0 0 auto;
+}

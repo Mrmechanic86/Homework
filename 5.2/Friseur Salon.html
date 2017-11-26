@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Das ist die Bootstrap Beziehung, die CSS vom Style überschreibt, da es zuerst im Code kommt -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+
+    <!-- Das ist die CSS Beziehung, die nach bootstrap im Code aufgerufen wird -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <!-- Java Script Files, die man für Bootstrap braucht. Mit Link einzubinden-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+<nav class="bg-success fixed-top">
+
+
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Tay-Fun-Tours</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Stadtführung 1</a></li>
+            <li><a href="#">Stadtführung 2</a></li>
+            <li><a href="#">Stadtführung 3</a></li>
+            <li><a href="#">Stadtführung 4</a></li>
+            <li><a href="#">Stadtführung 5</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Wien-Karte Google-Maps</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Wien-Karte Wiener Linien</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Suche</button>
+      </form>
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="Bild" src="img/Wien.jpg" alt="Wien 1">
+                </div>
+
+                <div class="item">
+                    <img class="Bild" src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-slider-2.jpg" alt="image 2">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+</div>
+
+    <div class="header">
+        <h1>Hello World</h1>
+    </div>
+
+    <div class="content_header">
+        <h2>Das ist eine Internetseite</h2>
+    </div>
+
+</body>
+</html>
