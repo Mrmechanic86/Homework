@@ -64,7 +64,7 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container">
+    <div class="container">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -94,15 +94,76 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-</div>
 
-    <div class="header">
-        <h1>Hello World</h1>
-    </div>
+        <!-- Panels -->
+        <div class="panels" align="center">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img class="panel_img" src="img/classic.png" alt="Klassik Tour">
+                    <div class="caption">
+                        <h3>Klassik Tour</h3>
+                        <p>Alles was man in der Innenstadt von Wien gesehen haben muss.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Karte</a>
+                           <a href="#" class="btn btn-default" role="button">Details</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img class="panel_img" src="img/kunst_und_kultur.png" alt="Kunst und Kultur">
+                    <div class="caption">
+                        <h3>Kunst und Kultur Tour</h3>
+                        <p>Staatsoper, Karlsplatz und Nachmarkt wie auch Karlskirche, Stadtpark und Hundertwasserhaus.</p>
+                        <p><a href="https://www.google.ca/maps/place/Karlskirche/@48.1982453,16.3696397,17z/data=!3m1!4b1!4m5!3m4!1s0x476d078282166ac7:0xceaba5bcdc66f532!8m2!3d48.1982453!4d16.371828" class="btn btn-primary" role="button">Karte</a>
+                            <a href="#" class="btn btn-default" role="button">Details</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img class="panel_img" src="img/hidden_places.jpg" alt="Hidden Places">
+                    <div class="caption">
+                        <h3>Hidden Places Tour</h3>
+                        <p>Hinter Toren und Durchgängen sehen Sie die geheimen Schokoladenseite Wiens.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Karte</a>
+                            <a href="#" class="btn btn-default" role="button">Details</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Panels -->
 
-    <div class="content_header">
-        <h2>Das ist eine Internetseite</h2>
-    </div>
+        <!-- Anfang Terminvereinbarung -->
+        <div class="container">
+        <div class="col-md-5">
+            <div class="form-area">
+                <form role="form">
+                <br style="clear:both">
+                            <h3 style="margin-bottom: 25px; text-align: center;">Terminvereinbarung</h3>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Telefonnummer" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Stadtführung" required>
+                            </div>
+                            <div class="form-group">
+                            <textarea class="form-control" type="textarea" id="message" placeholder="Nachricht" maxlength="140" rows="7"></textarea>
+                                <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
+                            </div>
+                    <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        <!-- Ende Terminvereinbarung -->
 
 </body>
 </html>

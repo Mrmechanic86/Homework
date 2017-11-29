@@ -6,3 +6,17 @@ h1 {
     width: 100;
      margin: auto;
 }
+
+
+.panel_img {
+    max-width: 50%;
+    height: auto;
+}
+
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
